@@ -1,0 +1,347 @@
+﻿@charset "utf-8";
+/** 全局样式 **/
+.index_left_ljc1 .FrontNews_list01-d1_c1 {
+	width:98%;
+	margin:0 auto;
+	clear:both;
+	text-align:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 ul {
+	margin:0;
+	padding:0;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 ul.newslist-01 {
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .content {
+	float:left;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+/* 链接样式 */
+.index_left_ljc1 .FrontNews_list01-d1_c1 .page {
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .pageJump {
+	display:block;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a:link {
+	color:#06c;
+	text-decoration:none;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a:visited {
+	color:#06c;
+	text-decoration:none;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a:hover {
+	color:#06c;
+	text-decoration:underline;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a:active {
+	color:#06c;
+}
+/** 翻页 **/
+.index_left_ljc1 .FrontNews_list01-d1_c1 .page, .index_left_ljc1 .FrontNews_list01-d1_c1 .more {
+	clear:both;
+	width:100%;
+	text-align:right;
+	padding:10px 0;
+}
+/** 内容样式 **/
+/** 标题区域 **/
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle {
+	width: 100%;
+	overflow:hidden;
+	margin-left: 10px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle ul {
+	width:100%;
+	height:auto!important;
+	min-height:1px;
+	height:1px;
+	clear:both;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle li {
+	padding-right:15px;
+	line-height:32px;
+	text-align:left;
+	display:inline;
+	    font-size: 14px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle li h3 {
+    display: inline;
+    color: #666;
+    font-size: 14px;
+    padding-left: 23px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle li h3 a {
+	color:#666;
+	font-weight:normal;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle li span {
+	color:#9fa0a0; display: none;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle li em {
+	font-style:normal;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle .fontnews a {
+	color:#06c;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle .author {
+	padding-left:13px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle .comment {
+	padding-left:20px;
+	padding-bottom:2px;
+	background:url(../images/icon-04.gif) 0 50% no-repeat; /*修改*/
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle .linkarea {
+	float:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle ul li.date {
+	float:right;
+	text-align:right;
+	width:25%;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newstitle ul li.title {
+	float:left;
+	width:64%;
+}
+/** 内容列表区域 **/
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist ul {
+	width:100%;
+	overflow:hidden;/*margin-bottom:10px;*/
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist ul li {
+	float:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .pic {
+	width:170px; /*根据图片大小调整*/
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .pic img {
+	padding:5px;
+	width:150px;
+	height:115px;
+	_margin-bottom:1px;
+	 *+margin-bottom:5px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .pic a:hover img {
+	padding:5px;
+	background:#fff4ce;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .summary {
+	width:70%;/*根据图片大小调整*/
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .summary h3 {
+	font-size:12px;
+	font-weight:bold;
+	line-height:22px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .summary p {
+	line-height:20px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .newslist .summary a {
+	margin-left:5px;
+}
+/**分割线**/
+.index_left_ljc1 .FrontNews_list01-d1_c1 .showLine {
+	float:left;
+	height:10px;
+	width:100%;
+	border:0;
+	background:url(../images/line-01.gif) 0 50% repeat-x;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 li.clearBoth {
+	line-height:0;
+	font-size:0;
+}
+#FrontNews_list01-202 .newstitle .linkarea {
+	float:left;
+	display:none;
+}
+#FrontNews_list01-202 {
+	width:98%;
+	margin:0 auto;
+	clear:both;
+	text-align:left;
+}
+#FrontNews_list01-201 .newstitle .linkarea {
+	float:left;
+	display:none;
+}
+#FrontNews_list01-201 {
+	width:98%;
+	margin:0 auto;
+	clear:both;
+	text-align:left;
+	padding:5px;
+}
+/** 标题区域 **/
+#FrontNews_list01-202 .newstitle {
+	width:100%;
+	overflow:hidden;
+}
+#FrontNews_list01-202 .newstitle ul {
+	width:100%;
+	height:auto!important;
+	min-height:1px;
+	height:1px;
+	clear:both;
+}
+#FrontNews_list01-202 .newstitle li {
+	width:100%;
+	line-height:22px;
+	text-align:left;
+	display:inline;
+	padding:0;
+}
+#FrontNews_list01-202 .newstitle li h3 {
+	display:inline;  /*添加*/
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:12px;
+	background:url(../images/icon-09.gif) 0 50% no-repeat;
+}
+#FrontNews_list01-202 .newstitle li h3 a {
+	color:#000;
+	font-weight:normal;
+}
+/** 标题区域 **/
+#FrontNews_list01-201 .newstitle {
+	width:100%;
+	overflow:hidden;
+}
+#FrontNews_list01-201 .newstitle ul {
+	width:100%;
+	height:auto!important;
+	min-height:1px;
+	height:1px;
+	clear:both;
+}
+#FrontNews_list01-201 .newstitle li {
+	width:100%;
+	line-height:22px;
+	text-align:left;
+	display:inline;
+	padding:0;
+}
+#FrontNews_list01-201 .newstitle li h3 {
+	display:inline;  /*添加*/
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:12px;
+	background:url(../images/icon-09.gif) 0 50% no-repeat;
+}
+#FrontNews_list01-201 .newstitle li h3 a {
+	color:#000;
+	font-weight:normal;
+}
+/* -----滚动样式----------------------------------------------------------------------- */
+	/* navigation */
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollnavi {
+	width: 200px;
+	height: 20px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollnavi a {
+	width: 8px;
+	height: 8px;
+	float: left;
+	margin: 3px;
+	background: url(../images/navigator.png) 0 0 no-repeat;
+	display: block;
+	font-size: 1px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollnavi a:hover {
+	background-position: 0 -8px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollnavi a.active {
+	background-position: 0 -16px;
+}
+/* buttons */
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollbrowse {
+	background: url(../images/hori_large.png) no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 40px 10px;
+	cursor: pointer;
+	font-size: 1px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollright {
+	background-position: 0 -30px;
+	clear: right;
+	margin-right: 0px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollright:hover {
+	background-position: -30px -30px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollright:active {
+	background-position: -60px -30px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollleft {
+	margin-left: 0px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollleft:hover {
+	background-position: -30px 0;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollleft:active {
+	background-position: -60px 0;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollup, .index_left_ljc1 .FrontNews_list01-d1_c1 a.scrolldown {
+	background: url(../images/vert_large.png) no-repeat;
+	float: none;
+	margin: 10px 50px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollup:hover {
+	background-position: -30px 0;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrollup:active {
+	background-position: -60px 0;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrolldown {
+	background-position: 0 -30px;
+	clear:both;
+	float:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrolldown:hover {
+	background-position: -30px -30px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 a.scrolldown:active {
+	background-position: -60px -30px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollable {
+	position: relative;
+	overflow: hidden;
+	/**width: 410px;**/
+	height: 120px;
+	width:575px;
+	float:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .content1 {
+	width:575px;
+	float:left;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollitems {
+	width: 20000px;
+	position: absolute;
+	clear: both;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollable_vertical {
+	position: relative;
+	overflow: hidden;
+	width: 575px;
+	height: 120px;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollable_vertical .scrollitems {
+	height: 20000px;
+	position: absolute;
+	clear: both;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollliner {
+	position:Static;
+}
+.index_left_ljc1 .FrontNews_list01-d1_c1 .scrollliner .scrollitems {
+	position:Static;
+}

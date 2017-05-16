@@ -1,0 +1,40 @@
+﻿@charset "gb2312";
+/* CSS Document */
+.du_ce{width:40px;height:96px;position:fixed; right:0; top:410px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+410));}
+.zgNewZx{ width:40px; height:156px; z-index:9999; cursor:pointer; position:fixed; right:0; top:240px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+240));}
+.zgNewBj{ display:none;
+background-color: #000;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:9997;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+
+.zgNewBox{ width:549px; height:307px; padding:40px 30px 0; background:#fff; border:2px solid #ef2d36; border-radius:2px; position:fixed; z-index:9998; left:50%; top:50%; margin:-175px 0 0 -306px; }
+.zgNewBox em{ position:absolute; background:url(../images/new_zx_03.png) no-repeat; width:34px; height:34px; cursor:pointer; right:-10px; top:-10px;_background:url(../images/new_zx_03.gif) no-repeat;}
+.zgNewBox_left{ width:366px; margin-right:20px; float:left; height:184px; padding-top:1px;}
+.zgNewBox_b{ height:91px; border-bottom:1px dashed #eee;}
+.zgNewBox_b a{ display:inline-block; width:33.3333%; text-align:center; font-size:14px;font-family:"Microsoft Yahei"; padding-top:12px;}
+.zgNewBox_b a img{ display:block; margin:0 auto 12px;}
+.zgNewBox_b1 a{ padding-top:18px;}
+.zgNewBox_right{ width:159px; height:183px; border:1px solid #eee; float:left; text-align:center;}
+.zgNewBox_right span{ color:#888; display:block; line-height:39px;}
+.zgNewBox_bot{ padding-top:33px; overflow:hidden; clear:both; padding-left:42px;}
+.zgNewBox_bot p{ font-size:18px; float:left; background:url(../images/new_zx_30.jpg) no-repeat left center; padding-left:56px; width:248px;}
+.zgNewBox_bot p strong{ display:block; font-size:24px;}
+.zgNewBox_bot_a{ width:150px; height:47px; float:left; font-size:20px; font-weight:bold; line-height:47px; text-align:center; color:#fff; background:#ef2d36; border-radius:2px;}
+
+
+.zgNewZx1{ width:105px; height:172px; margin-top:-86px;  left:0; }
+.zgNewBox1{ border:1px solid #ef2d36;  padding-bottom:40px;}
+.zgNewBox1 h3{ height:43px; line-height:43px; color:#fff; font-size:18px;background:#ef2d36; position:absolute; left:0; top:0; width:100%; text-indent:19px; font-weight:normal;}
+.zgNewBox1 h3 i{ background:url(../images/new_zx_34.jpg) no-repeat; width:17px; height:16px; position:absolute; display:block; cursor:pointer; right:12px; top:13px;}

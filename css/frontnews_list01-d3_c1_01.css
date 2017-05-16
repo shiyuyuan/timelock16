@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/** 全局样式 **/
+.FrontNews_list01-d3_c1_01 {
+	width:95%;
+	margin:0 auto;
+	clear:both;
+	text-align:left;
+	margin-top:8px;
+}
+.FrontNews_list01-d3_c1_01 .content {
+	float:left;
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-right:10px;
+	width:255px;
+}
+.FrontNews_list01-d3_c1_01 .more {
+	width:100%;
+	text-align:right;
+	overflow:hidden;
+}
+/* 链接样式 */
+
+.FrontNews_list01-d3_c1_01 a:link {
+	/* color:#0066cc;
+	text-decoration:none; */
+}
+.FrontNews_list01-d3_c1_01 a:visited {
+	/* color:#0066cc;
+	text-decoration:none; */
+}
+.FrontNews_list01-d3_c1_01 a:hover {
+	/* color:#0066cc;
+	text-decoration:underline; */
+}
+.FrontNews_list01-d3_c1_01 a:active {
+	/*color:#06c;*/
+}
+
+/** 内容样式 **/
+
+/** 标题区域 **/
+.FrontNews_list01-d3_c1_01 .newstitle {
+	width:100%;
+	overflow:hidden;
+}
+.FrontNews_list01-d3_c1_01 .newstitle li h3 {
+	display:inline;
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:12px;
+}
+.FrontNews_list01-d3_c1_01 .newstitle li span {
+	color:#999;
+}
+.FrontNews_list01-d3_c1_01 .newstitle li em {
+	font-style:normal;
+}
+.FrontNews_list01-d3_c1_01 .newstitle .fontnews a {
+	color:#06c;
+}
+.FrontNews_list01-d3_c1_01 .newstitle .author {
+}
+.FrontNews_list01-d3_c1_01 .newstitle .comment {
+	padding-left:20px;
+	background:url(../images/icon-04.gif) 0 0px no-repeat;
+	background:url(../images/icon-04.gif) 0 4px no-repeat;
+}
+.FrontNews_list01-d3_c1_01 .newstitle .linkarea {
+
+}
+/** 内容列表区域 **/
+.FrontNews_list01-d3_c1_01 .newslist{
+}
+/**图片区域**/
+.FrontNews_list01-d3_c1_01 .content .pic {
+	float:left;
+	width:250px; /*根据图片大小调整*/
+}
+.FrontNews_list01-d3_c1_01 .content .pic a {
+	float:left;
+	/*padding:4px;
+	border:1px solid #d7d7d7;*/
+}
+.FrontNews_list01-d3_c1_01 .content .pic a:hover{
+	/*border:1px solid #F60;
+	background:#fff4ce;*/
+}
+.FrontNews_list01-d3_c1_01 .content .pic img{
+	width:240px;
+	height:150px;
+}
+.FrontNews_list01-d3_c1_01 .newslist .summary {
+}
+.FrontNews_list01-d3_c1_01 .newslist .summary h3 {
+	font-size:12px;
+	font-weight:bold;
+	line-height:22px;
+}
+.FrontNews_list01-d3_c1_01 .newslist .summary p {
+	line-height:20px;
+}
+.FrontNews_list01-d3_c1_01 .newslist .summary a {
+	margin-left:5px;
+}
+/**分割线**/
+.FrontNews_list01-d3_c1_01 .showLine {
+	float:left;
+	height:10px;
+	width:100%;
+	border:0;
+	background:url(../images/line-01.gif) 0 50% repeat-x;
+}
+.FrontNews_list01-d3_c1_01 .comstyle{
+	width:110%;
+	overflow:hidden;
+}

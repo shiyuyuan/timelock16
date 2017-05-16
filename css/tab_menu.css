@@ -1,0 +1,172 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+.slideBox {
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.slideBox dt {
+    width: auto;
+    height: 36px;
+    position: relative;
+    border-bottom: 2px solid #a1a1a1;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.slideBox .textmore {
+    height: 29px;
+    position: absolute;
+    top: 2px;
+}
+
+.slideBox #news_more {
+    width: 40px;
+    height: 7px;
+    position: absolute;
+    left: 390px;
+    background: url(../images/morenews.jpg) no-repeat;
+    top: 11px
+}
+
+.slideBox #news_more a {
+    display: block;
+    width: 40px;
+    background: none;
+    height: 15px;
+}
+
+.bsBoxWarning {
+    border: 6px solid #CCC;
+    border-radius: 5px;
+    width: 640px;
+    position: fixed;
+    left: 30%;
+    margin-left: -85px;
+    top: 20%;
+    background: white;
+    z-index: 9999;
+    display: none;
+}
+
+.bsBoxWarning div.bsClose {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    font-family: "Verdana";
+}
+
+.bsBoxWarning p {
+    height: 21px;
+    line-height: 21px;
+    text-indent: 10px;
+    margin-top: 5px;
+    position: static;
+    left: auto;
+    top: auto;
+    color: #444;
+    text-align: left;
+}
+
+#textone {
+    margin-left: 50px;
+}
+
+.switchBox span,
+.switchBox a,
+.switchBox em,
+.slideBox span,
+.slideBox em,
+.slideBox2 span {
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    margin: 0px 10px;
+    background: url(../images/text_title.jpg) no-repeat center;
+    color: #5c5c5c;
+}
+
+.slideBox span,
+.slideBox em,
+.slideBox2 span {
+    font-size: 13.3px;
+    padding-bottom: 34px;
+}
+
+.slideBox dt .on,
+.slideBox2 dt .on {
+    color: #025388;
+    font-weight: normal;
+}
+
+.slideBox dt .on a,
+.slideBox2 dt .on a {}
+
+.switchBox dt .on,
+.switchBox dt .active,
+.switchBox a:hover,
+.slideBox dt .on,
+.slideBox2 dt .on,
+.slideBox dt .active,
+.slideBox2 dt .active {
+    border-bottom: 2px solid #d30707;
+    color: #000000;
+}
+
+.t1 {}
+
+
+/*
+.on .t1{ width:87px; background:url(../images/a_1.jpg) no-repeat center; height:34px;}
+.on .t2{ width:87px; background:url(../images/a_2.jpg) no-repeat center; height:34px; }
+.on .t3{ width:87px; background:url(../images/a_3.jpg) no-repeat center; height:34px;}
+*/
+
+.slideBox dd {
+    clear: both;
+    /*	overflow:hidden;*/
+    display: none;
+    height: auto;
+    min-height: auto;
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+.slideBox2 dt {
+    width: auto;
+    height: 36px;
+    position: relative;
+    border-bottom: 2px solid #a1a1a1;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.slideBox2 dd {
+    clear: both;
+    /*	overflow:hidden;*/
+    display: none;
+    height: auto;
+    min-height: auto;
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+.slideBox2 dd span {
+    font-size: 14px
+}
