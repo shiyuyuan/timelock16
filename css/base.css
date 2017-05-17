@@ -411,7 +411,22 @@
     width: 100%;
     /* float: left; */
     padding-right: 10px;
-    padding-left: 10px; } }
+    padding-left: 10px; }
+
+  .index_left_w3 {
+    background-size: 300%; }
+
+  .index_left_w1 {
+    background-size: 300%; }
+
+  .index_left_w5 {
+    background-size: 300%; }
+
+  .index_left_w4 {
+    background-size: 300%; }
+
+  #index_wrap .index_left_ljc1_w {
+    background-size: 300%; } }
 @media screen and (max-width: 396px) {
   .du_select {
     width: 270px; }

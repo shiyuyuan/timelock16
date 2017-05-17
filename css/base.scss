@@ -323,13 +323,13 @@
     .book_box .content .con_bok {
         padding: 0px;
     }
-    .index_left_w1{
-    p{
-        img{
-            width: 100%;
+    .index_left_w1 {
+        p {
+            img {
+                width: 100%;
+            }
         }
     }
-}
 }
 
 @media screen and (max-width:992px) {
@@ -463,18 +463,18 @@
     .mot_box img {
         width: 72%;
     }
-.du_load {
-    width: 320px;
-    padding: 8px 26px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-#index_wrap .index_left_box {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 24px;
-}
+    .du_load {
+        width: 320px;
+        padding: 8px 26px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #index_wrap .index_left_box {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -488,21 +488,36 @@
         width: 100%;
     }
     .indexBannerInit {
-    width: 100%;
-    /* float: left; */
-    padding-right: 10px;
-    padding-left: 10px;
+        width: 100%;
+        /* float: left; */
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .index_left_w3 {
+        background-size: 300%;
+    }
+    .index_left_w1 {
+        background-size: 300%;
+    }
+    .index_left_w5 {
+        background-size: 300%;
+    }
+    .index_left_w4 {
+        background-size: 300%;
+    }
+    #index_wrap .index_left_ljc1_w {
+        background-size: 300%;
 }
 }
 
 @media screen and (max-width:396px) {
     .du_select {
-    width: 270px;
-}
-.du_inp {
-    width: 270px;
-}
-.du_but {
-    width: 270px;
-}
+        width: 270px;
+    }
+    .du_inp {
+        width: 270px;
+    }
+    .du_but {
+        width: 270px;
+    }
 }
