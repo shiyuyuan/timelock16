@@ -2183,7 +2183,7 @@ display: block;
 }
 
 .schoolInner {
-    width: 1188px;
+    width: 100%;
     padding-bottom: 45px;
 }
 
@@ -2214,7 +2214,7 @@ display: block;
 }
 
 .siBanner img {
-    width: 1188px;
+     width: 100%;
 }
 
 .siList {
@@ -2233,11 +2233,11 @@ display: block;
     line-height: 77px;
     color: #252525;
     font-size: 18px;
-    background: url(../images/schoolicon1_1.png) 1132px 23px no-repeat;
+    background: url(../images/schoolicon1_1.png) right 23px no-repeat;
 }
 
 .siInit a.tabA.tabAOn {
-    background: url(../images/schoolicon2_1.png) 1132px 32px no-repeat;
+    background: url(../images/schoolicon2_1.png) right 25px no-repeat;
 }
 
 .siContent {
