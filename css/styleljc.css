@@ -845,7 +845,7 @@ p.more .en {
 #index_wrap .index_left_5 {
     height: auto;
     overflow: hidden;
-    width: 1200px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -901,13 +901,12 @@ p.more .en {
 #index_wrap .index_left_6 {
     height: auto;
     overflow: hidden;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 10px;
 }
 
 #index_wrap .index_left_6 .index_lmk {
-    height: 329px;
     width: 100%;
     text-align: center;
 }
@@ -1320,7 +1319,7 @@ p.more .en {
 }
 
 #index_wrap .index_left_3 {
-    width: 1200px;
+    width: 100%;
     height: auto;
     margin-top: 20px;
     margin: 0 auto;

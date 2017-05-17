@@ -212,6 +212,9 @@
   .col-xs-6 {
     width: calc(50% - 20px); }
 
+  .col-xs-6_5 {
+    width: calc(50% - 6px); }
+
   .col-xs-7 {
     width: calc(58.333331% - 20px); }
 
@@ -396,7 +399,19 @@
   #index_wrap .index_left_box {
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .switchBox span,
+  .switchBox a,
+  .switchBox em,
+  .slideBox span,
+  .slideBox em,
+  .slideBox2 span {
+    margin: 0px 1px;
+    width: 24.4%; }
+
+  #textone {
+    margin-left: 0; } }
 @media screen and (max-width: 600px) {
   .sc2Init {
     height: auto; }
@@ -420,13 +435,20 @@
     background-size: 300%; }
 
   .index_left_w5 {
-    background-size: 300%; }
+    background-size: 300%;
+    padding-top: 82px;
+    margin-bottom: 70px; }
 
   .index_left_w4 {
     background-size: 300%; }
 
   #index_wrap .index_left_ljc1_w {
-    background-size: 300%; } }
+    background-size: 300%; }
+
+  .footer .snsLink a {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px; } }
 @media screen and (max-width: 396px) {
   .du_select {
     width: 270px; }
