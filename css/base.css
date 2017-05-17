@@ -256,7 +256,10 @@
     padding-right: 10px; }
 
   .book_box .content .con_bok {
-    padding: 0px; } }
+    padding: 0px; }
+
+  .index_left_w1 p img {
+    width: 100%; } }
 @media screen and (max-width: 992px) {
   .du_main_ck {
     padding: 0 10px; }
@@ -272,7 +275,18 @@
     display: none; }
 
   .hideb_b {
-    display: block; } }
+    display: block; }
+
+  .mot_box {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
+
+  .mot_box img {
+    width: 43%;
+    margin: 0 auto; } }
 @media screen and (max-width: 767px) {
   .hideb_c {
     display: block; }
@@ -367,12 +381,23 @@
     width: 50%; }
 
   .book_box {
-    padding: 15px; } }
-@media screen and (max-width: 600px) {
-  .du_load {
-    width: 100%;
-    padding: 8px 23px; }
+    padding: 15px; }
 
+  .mot_box img {
+    width: 72%; }
+
+  .du_load {
+    width: 320px;
+    padding: 8px 26px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #index_wrap .index_left_box {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 24px; } }
+@media screen and (max-width: 600px) {
   .sc2Init {
     height: auto; }
 
@@ -380,10 +405,21 @@
     width: 100%; }
 
   .booc_d .boot_cl_2 {
-    width: 100%; } }
-@media screen and (max-width: 396px) {
-  .du_load {
+    width: 100%; }
+
+  .indexBannerInit {
     width: 100%;
-    padding: 8px 23px; } }
+    /* float: left; */
+    padding-right: 10px;
+    padding-left: 10px; } }
+@media screen and (max-width: 396px) {
+  .du_select {
+    width: 270px; }
+
+  .du_inp {
+    width: 270px; }
+
+  .du_but {
+    width: 270px; } }
 
 /*# sourceMappingURL=base.css.map */
