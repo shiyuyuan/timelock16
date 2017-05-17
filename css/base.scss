@@ -278,6 +278,9 @@
     .du_main_ck {
         padding: 0 10px;
     }
+    .sc2Init {
+        height:300px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -313,10 +316,11 @@
     }
     .sc2Init {
         width: 100%;
-        margin-bottom: 10px
+        margin-bottom: 10px;
+        height:auto;
     }
     .sc2Right {
-        width: 53%;
+        width: 55%;
         margin-right: 0%;
     }
 }
@@ -325,6 +329,9 @@
         width: 100%;
         padding: 8px 23px;
     }
+    .sc2Init {
+     height: auto;
+}
 }
 
 @media screen and (max-width:396px) {
