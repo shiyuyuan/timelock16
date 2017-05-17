@@ -135,7 +135,7 @@
     }
     .boot_cl_2 {
         img {
-            width: 100%;
+           /*  width: 100%; */
         }
     }
     .boot_cl_3 {
@@ -166,7 +166,51 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+.hideb_a {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hideb {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hideb_b {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hideb_c {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mot_box {
+    img {
+        width: 100%;
+    }
+}
+
+.mot_boxcon {
+    .clearfx {
+        margin: 0 10px
+    }
+}
+
+.book_box {
+    .content {
+        .con_bok {
+            padding: 10px 150px;
+        }
+    }
+}
+
+@media screen and (min-width:769px) {
     .col-sm-1 {
         width: calc(8.333333% - 20px);
     }
@@ -211,7 +255,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
     .col-xs-1 {
         width: calc(8.333333% - 20px);
     }
@@ -272,6 +316,13 @@
     .topBn {
         padding-left: 10px;
     }
+    .newsList {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .book_box .content .con_bok {
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -279,11 +330,34 @@
         padding: 0 10px;
     }
     .sc2Init {
-        height:300px;
+        height: 300px;
     }
+    .nlcInit {
+        padding: 0 10px 0 10px;
+        height: auto;
+    }
+    .hideb_a {
+        display: none;
+    }
+    .hideb_b {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width:767px) {
+    .hideb_c {
+        display: block;
+    }
+    .hideb_b {
+        display: none;
+    }
+    .sub_left_1 {
+        margin-bottom: 40px;
+    }
+    .sub_left_1 ul li {
+        width: 82px;
+    }
     .du_main01_ul {
         padding: 69px 10px 0 10px;
         img {
@@ -317,20 +391,73 @@
     .sc2Init {
         width: 100%;
         margin-bottom: 10px;
-        height:auto;
+        height: auto;
     }
     .sc2Right {
         width: 55%;
         margin-right: 0%;
     }
+    .sc1Right {
+        width: 100%;
+        margin-top: 38px;
+    }
+    .sc1Right h2 {
+        text-align: center;
+        font-size: 18px
+    }
+    .sc1Left {
+        width: 100%;
+        text-align: center;
+    }
+    .sc1Left img {
+        width: 49%;
+    }
+    .school {
+        padding: 25px 10px 0 10px;
+    }
+    .newsList {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nlcInit a .leftTxt {
+        float: none;
+        width: 100%;
+    }
+    .nlcInit a .rightImg {
+        float: none;
+        width: 100%;
+    }
+    .hidea {
+        display: none;
+    }
+    .hideb {
+        display: block;
+    }
+    .newsListTitle {
+        font-size: 16px;
+        padding: 45px 0 0px 0;
+    }
+    .booc_d .boot_cv {
+    width: 50%;
 }
+.book_box {
+    padding: 15px;
+}
+}
+
 @media screen and (max-width:600px) {
     .du_load {
         width: 100%;
         padding: 8px 23px;
     }
     .sc2Init {
-     height: auto;
+        height: auto;
+    }
+    .sc1Left img {
+        width: 100%;
+    }
+    .booc_d .boot_cl_2 {
+    width: 100%;
 }
 }
 
