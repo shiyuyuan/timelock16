@@ -20,13 +20,27 @@ $(function(){
 	wHeight=$(window).height();
 	
 	$('.navMoreBtn').mouseover(function(){
+		
+		var fd = $(this).offset().left;
+
 		$(".navMoreBtn").removeClass('navMsOn');
 		$(this).addClass('navMsOn');
 		$('.navMore').hide();
 		var nmid=$(this).attr('nmid');
+		var fh = $('.navMore'+nmid).find('a').length;
+		
+		$('.navMore').height(fh*40+80);
 		navTempOn=nmid;
 		$('.navMore'+nmid).show();
-		});
+		$('.navMore'+nmid).find('img').css({
+			'left':fd+32,
+			})
+		$('.navMore'+nmid).find('li.nmlInit').css({
+			'left':fd,
+		})
+
+	});
+
 	$('.navMore,.nav').hover(function(){
 		$(this).show();
 		},function(){
@@ -35,6 +49,8 @@ $(function(){
 			}
 		);
 		
+
+
 	$('.navSearch').hover(function(){
 		$('.searchMoreOut').show();
 		},function(){

@@ -184,8 +184,21 @@ textarea {
     z-index: 999;
     padding: 35px 0;
 }
-
-.navIcon1 {
+.navMore .navMoreLeft ul.umlUl li.nmlInit a {
+    display: block;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.nav .wrapper img{
+    position: absolute;
+    top:0;
+}
+.navMore .navMoreLeft ul.umlUl li.nmlInit{
+    position: absolute;
+}
+/*.navIcon1 {
     position: absolute;
     left: 174px;
     top: -35px;
@@ -275,7 +288,7 @@ display: block;
 
 .navIcon2 {
     position: absolute;
-    left: 345px;
+    left: 337px;
     top: -35px;
 }
 
@@ -287,18 +300,21 @@ display: block;
 }
 
 .navMore2 .navMoreLeft ul.umlUl {
-    width: 100%;
+    width: auto;
+    float: left;
+    text-align: left;
+    position: relative;
 }
 
 .navMore2 .navMoreLeft ul.umlUl li.nmlInit {
     width: auto;
     float: left;
-    margin-left: 196px;
     text-align: left;
+    position: relative;
 }
 .navMore3 .navMoreLeft ul.umlUl li.nmlInit {
-    margin-left:593px;
     text-align: left;
+        position: relative;
 }
 .navMore3  .navIcon2 {
     position: absolute;
@@ -306,8 +322,8 @@ display: block;
     top: 0px;
 }
 .navMore4 .navMoreLeft ul.umlUl li.nmlInit {
-    margin-left:776px;
     text-align: left;
+        position: relative;
 }
 .navMore4  .navIcon1 {
     position: absolute;
@@ -315,22 +331,16 @@ display: block;
     top: 0px;
 }
 .navMore5 .navMoreLeft ul.umlUl li.nmlInit {
-    margin-left: 931px;
     text-align: left;
+    position: relative;
 }
 .navMore5  .navIcon1 {
     position: absolute;
     left: 1243px;
     top: 0px;
 }
-/*.navMore2 .navMoreLeft ul.umlUl li.nmlInit a {
-    display: block;
-    color: #545353;
-    line-height: 100%;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-*/
+
+
 .navMore2 .umlTop {
     height: 190px;
 }
@@ -355,7 +365,7 @@ display: block;
     color: #010101;
     margin: 0 30px;
 }
-
+*/
 .searchMore {
     width: 188px;
     padding: 10px 10px 0 10px;
@@ -403,8 +413,8 @@ display: block;
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    height: 570px;
-    width: 1280px;
+  /*  height: 570px;*/
+    width: 100%;
 }
 .indexKv .swiper-slide img{
  width: 100%

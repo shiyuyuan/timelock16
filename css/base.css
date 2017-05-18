@@ -151,6 +151,9 @@
 .book_box .content .con_bok {
   padding: 10px 150px; }
 
+.index_left_dd8 {
+  display: none; }
+
 @media screen and (min-width: 769px) {
   .col-sm-1 {
     width: calc(8.333333% - 20px); }
@@ -245,9 +248,6 @@
     margin-left: auto;
     margin-right: auto; }
 
-  .nav {
-    display: none; }
-
   .schoolContent {
     padding: 80px 30px 0 30px; }
 
@@ -263,6 +263,21 @@
 
   .index_left_w1 p img {
     width: 100%; } }
+@media screen and (max-width: 1280px) {
+  .item_center {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .nav a.navLink {
+    font-size: 16px; }
+
+  .nav .item_center .item,
+  .nav .item_center a.item {
+    margin: 0 19px; }
+
+  .navMore .navMoreLeft ul.umlUl li.nmlInit a {
+    font-size: 14px;
+    line-height: 26px; } }
 @media screen and (max-width: 992px) {
   .du_main_ck {
     padding: 0 10px; }
@@ -415,7 +430,47 @@
     width: 24.4%; }
 
   #textone {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .indexKv .swiper-button-prev {
+    background-size: 54%; }
+
+  .indexKv .swiper-button-next {
+    background-size: 54%;
+    right: -27px; }
+
+  .index_left_w7 {
+    background: #5f5d5d;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden; }
+
+  #index_wrap .index_left_8 {
+    height: auto;
+    padding-top: 22px;
+    overflow: hidden;
+    width: 96%;
+    margin: 0 auto;
+    padding-bottom: 14px; }
+
+  .index_caleft {
+    width: 100%;
+    height: 223px;
+    float: left;
+    margin-left: 0;
+    margin-top: 8px; }
+
+  .index_caright {
+    margin-top: 8px;
+    width: 100%;
+    float: left; }
+
+  .index_left_dd8 {
+    text-align: center;
+    margin-top: 74px;
+    display: block; } }
 @media screen and (max-width: 600px) {
   .sc2Init {
     height: auto; }
@@ -458,7 +513,10 @@
     margin-bottom: 15px; }
 
   .footerLink {
-    padding: 30px 0 30px 0; } }
+    padding: 30px 0 30px 0; }
+
+  .index_left_dd8 img {
+    width: 80%; } }
 @media screen and (max-width: 396px) {
   .du_select {
     width: 270px; }
