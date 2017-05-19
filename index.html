@@ -38,6 +38,7 @@
     browserRedirect();
     </script> -->
     <link href="http://www.ainisi888.com/theme/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/styleljc.css" rel="stylesheet" type="text/css" />
     <link href="css/frontnews_list01-d1_c1.css" rel="stylesheet" type="text/css" />
     <link href="css/frontproducts_list01-d1_c1.css" rel="stylesheet" type="text/css" />
@@ -51,9 +52,7 @@
     <script type="text/javascript" src="js/public.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/lib.min.js"></script>
-    
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+   
     <script src="js/indexfunction.js"></script>
     </body>
     <style type="text/css">
@@ -178,42 +177,72 @@
             </div>
         </div>
     </div>
+    <i class="fa fa-navicon menu_icon"></i>
+    <script type="text/javascript">
+    	$(function(){
+    		var k = 0;
+    		$(".accordion").hide();
+    		$(".menu_icon").click(function(){
+    			if(k == 0){
+    				$(".accordion").slideDown();
+    				k = 1;
+    			}else{
+    				$(".accordion").slideUp();
+    				k = 0;
+    			}
+    		})
+    	})
+    </script>
     <ul id="accordion" class="accordion">
         <li>
-            <div class="link"><i class="fa fa-paint-brush"></i>www.777moban.com<i class="fa fa-chevron-down"></i></div>
+            <div class="link">时光锁学院<i class="fa fa-chevron-down"></i></div>
             <ul class="submenu">
-                <li><a href="#">Photoshop</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">Maquetacion web</a></li>
+                <li><a href="#">时光锁美学</a></li>
+                <li><a href="#">时光锁校刊</a></li>
+                <li><a href="#">时光锁荣誉</a></li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-code"></i>Desarrollo front-end<i class="fa fa-chevron-down"></i></div>
+            <div class="link">培训课程<i class="fa fa-chevron-down"></i></div>
             <ul class="submenu">
-                <li><a href="#">Javascript</a></li>
-                <li><a href="#">jQuery</a></li>
-                <li><a href="#">Frameworks javascript</a></li>
+                <li><a href="#">皮肤护理</a></li>
+                <li><a href="#">私密护理</a></li>
+                <li><a href="#">半永久纹绣</a></li>
+                <li><a href="#">微雕整形</a></li>
+                <li><a href="#">月嫂培训</a></li> 
+                <li><a href="#">催乳师培训</a></li>                       
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-mobile"></i>Diseño responsive<i class="fa fa-chevron-down"></i></div>
+            <div class="link"></i>明星产品</div>
+        </li>
+        <li>
+            <div class="link">师资力量<i class="fa fa-chevron-down"></i></div>
             <ul class="submenu">
-                <li><a href="#">Tablets</a></li>
-                <li><a href="#">Dispositivos mobiles</a></li>
-                <li><a href="#">Medios de escritorio</a></li>
-                <li><a href="#">Otros dispositivos</a></li>
+                <li><a href="#">内地师资</a></li>
+                <li><a href="#">香港师资</a></li>
+                <li><a href="#">韩国师资</a></li>
+                <li><a href="#">欧美师资</a></li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-globe"></i>Posicionamiento web<i class="fa fa-chevron-down"></i></div>
+            <div class="link">行业资讯<i class="fa fa-chevron-down"></i></div>
             <ul class="submenu">
-                <li><a href="#">Google</a></li>
-                <li><a href="#">Bing</a></li>
-                <li><a href="#">Yahoo</a></li>
-                <li><a href="#">Otros buscadores</a></li>
+                <li><a href="#">行业资讯</a></li>
+                <li><a href="#">知识课堂</a></li>
             </ul>
         </li>
+         <li>
+            <div class="link">就业指南<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">职业规划</a></li>
+                <li><a href="#">创业计划</a></li>
+                <li><a href="#">美学新星</a></li>                 
+            </ul>
+        </li>
+        <li>
+            <div class="link">报名咨询</div>
+        </li>   
     </ul>
     <div class="mainContent">
         <div class="wrapper">
@@ -1596,13 +1625,17 @@
     <div class="popBg" style="display:none;"></div>
     <div class="pop popVideo" style="display:none;">
         <div class="innerDiv">
-            <video controls="controls" src="" width="800" height="450" id="popVideo" class="video-js vjs-default-skin">
+            <video controls="controls" src=""  id="popVideo" class="video-js vjs-default-skin">
                 <source src="" type="video/mp4" />
             </video>
             <a href="javascript:void(0);" onclick="closeVideo();" class="videoClose"><img src="picture/videoclose_1.png" /></a>
         </div>
     </div>
     <a href="javascript:void(0);" class="upBtn"><img src="picture/up_1.png" /></a>
+	    <!-- WPA Button Begin -->
+	<script charset="utf-8" type="text/javascript" src="js/wpa.js"></script>
+	<!-- WPA Button End -->
+	<script language="javascript" src="js/js_public.js"></script>
     <script>
     $(function() {
         //首页kv

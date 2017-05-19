@@ -216,7 +216,6 @@
 
  .accordion {
     width: 100%;
-    max-width: 360px;
     margin: 30px auto 20px;
     background: #FFF;
     -webkit-border-radius: 4px;
@@ -229,8 +228,8 @@
     display: block;
     padding: 15px 15px 15px 42px;
     color: #4D4D4D;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     border-bottom: 1px solid #CCC;
     position: relative;
     -webkit-transition: all 0.4s ease;
@@ -272,7 +271,14 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
+.menu_icon{
+    font-size: 32px;
+    color: #332c2b;
+    position: absolute;
+    right: 17px;
+    top: 122px;
+    display: none;
+}
 /**
  * Submenu
  -----------------------------*/
@@ -477,6 +483,9 @@
 }
 
 @media screen and (max-width:767px) {
+    .menu_icon{
+        display: block;
+    }
     .hideb_c {
         display: block;
     }
@@ -566,7 +575,7 @@
     }
     .newsListTitle {
         font-size: 16px;
-        padding: 45px 0 0px 0;
+        padding: 45px 0 27px 0;
     }
     .booc_d .boot_cv {
         width: 50%;
@@ -714,4 +723,16 @@
     .du_but {
         width: 270px;
     }
+    .du_load {
+    width: 299px;
+    padding: 8px 17px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.du_main_tit {
+    img{
+        width: 100%;
+    }
+}
 }

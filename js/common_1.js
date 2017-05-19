@@ -184,3 +184,45 @@ $("input").on("blur", function () {
     }
 });
 });
+$(function() {
+    $(".topImg").click(function() {
+        getVideoWidth()
+    })
+    $(window).resize(function(event) {
+        getVideoWidth()
+    });
+})
+function getVideoWidth() {
+    var w = $(window).width();
+    if (w >= 992) {
+        $('.popVideo').css({
+            "width": "800px",
+            "height": "450px",
+            "margin": "-225px 0 0 -400px"
+        });
+        $("#popVideo").css({
+            "width": "800px",
+            "height": "450px",
+        });
+    } else if (w >= 500 && w < 992) {
+        $('.popVideo').css({
+            "width": "485px",
+            "height": "350px",
+            "margin": "-175px 0 0 -242px"
+        });
+        $("#popVideo").css({
+            "width": "485px",
+            "height": "350px"
+        });
+    } else if (w < 500) {
+        $('.popVideo').css({
+            "width": "285px",
+            "height": "250px",
+            "margin": "-125px 0 0 -155px"
+        });
+        $("#popVideo").css({
+            "width": "285px",
+            "height": "250px"
+        });
+    }
+}

@@ -82,6 +82,7 @@ $(window).scroll(function(){
 
 var myPlayer;	
 function showVideo(e){
+	alert(e)
 	var popVideo=document.getElementById('popVideo');
 	var vSrc=$(e).attr('vSrc');
 	var vPoster=$(e).attr('vPoster');
@@ -89,7 +90,7 @@ function showVideo(e){
 	$('.popVideo video').attr('poster',vPoster);
 	$('.video-js').find('source').attr('src',vSrc);
 	//$('.popVideo video source').attr('src',vSrc);
-	
+
 	$('.pop').hide();
 	$('.popBg').show();
 	$('.popVideo').show();

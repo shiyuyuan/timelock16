@@ -54,7 +54,7 @@ var script = document.createElement("script");
     document.getElementsByTagName("head")[0].appendChild(script)
 }
 };
-setTimeout("PlayJsAdPopWin()",1000*60);
+setTimeout("PlayJsAdPopWin()",1000*30);
 
 
 
